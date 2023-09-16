@@ -1,10 +1,10 @@
 body{
-    background-image: linear-gradient(to right,rgb(114, 114, 207),rgb(205, 205, 83));
+    background: rgba(212, 212, 212, 0.932);
 }
 .file-input-div{
     height:200px;
-    width:1525px;
-     background-image: linear-gradient(to right,cyan,green);
+    width:100%;
+     background: rgb(83, 176, 192);
     
     }
     .file-input-form{
@@ -27,14 +27,15 @@ body{
         font-size: 1.4rem;
         font-weight: 1000;
         height:40px;
-        width:200px;
-        background-image: linear-gradient(to right,rgb(12, 145, 21),blue);
+        width:136px;
+        background: rgb(65, 199, 24);
+        color: aliceblue;
     }
 
     .form-button button:hover{
-        font-weight: 1200;
-        font-size: 2rem;
-        background-image: linear-gradient(to right,rgb(24, 143, 203),rgb(180, 122, 13));
+        font-weight: 1100;
+        font-size: 1.8rem;
+        background: rgb(197, 24, 203);
 
         display: flex;
         flex-direction: column;
@@ -45,8 +46,8 @@ body{
     /* ===========================================Table-Headings============================================================================= */
     .headings{
         height:70px;
-        width:1525px;
-        background-image: linear-gradient(to right,rgb(114, 114, 207),rgb(205, 205, 83));
+        width:100%;
+        background: rgb(255, 187, 0);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -59,12 +60,12 @@ body{
         padding-left: 40px;
         display: flex;
         flex-direction: row;
-        /* justify-content: center; */
         align-items: center;
     }
     ul{
-        width:1483.5px;
-        background-image: linear-gradient(to right,rgb(114, 114, 207),rgb(205, 205, 83));
+        min-height:75%;
+        width:97.85%;
+        background: rgb(103, 211, 202);
     }
   ul  li{
     width:100%;
@@ -91,5 +92,10 @@ body{
         color: black;
     }
     
-
+.delButton a{
+    background: red;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+}
     
