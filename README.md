@@ -2,6 +2,7 @@
 This project allows you to upload CSV files, display the data in them, and perform various operations on the data.
 
 **======================Project Setup==================**
+
 Follow these steps to set up the project on your local system:
 1. Clone the repository or create a new project directory.
 2. Make sure you have Node.js and npm (Node Package Manager) installed on your system.
@@ -13,6 +14,7 @@ Follow these steps to set up the project on your local system:
 
 
 **=======================URLs===========================**
+
    1. localhost:8080/  (home Page)(GET)
    2. localhost:8080/create/up (POST)
    3. localhost:8080/create/view/:id (GET)
