@@ -1,16 +1,16 @@
 body{
-    background-image: linear-gradient(to right,rgb(114, 114, 207),rgb(205, 205, 83));
+    background: rgba(212, 212, 212, 0.932);
 }
 /* ====================================nav-bar========================================= */
 .nav-bar{
+    background: rgb(83, 176, 192);
     display: flex;
     font-size: 2rem;
     font-weight: bold;
-    /* justify-content: center; */
     height:60px;
 }
 .home{
-    margin-left: 40px;
+    margin-left: 24%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,18 +21,11 @@ body{
     font-weight: bold;
 }
 .search-bar{
-    margin-left: 600px;
-    
-}
-.search-box{
-    /* margin-top: 20px; */
-    /* padding-top: 10px; */
+    margin-left: 26%;
 }
 
 #input{
-    /* margin-top: 30px; */
     height:50px;
-    /* background-color: azure; */
     width: 300px;
     border-radius: 0.5rem;
 }
@@ -42,14 +35,12 @@ body{
     color: black;
 }
 .search-btn{
-    height:50px;
-    /* background-color: azure; */
+    height:45px;
     width: 100px;
+    margin-top: 4px;
     border-radius: 0.5rem;
     font-size: 1.5rem;
     font-weight: 700;
-    /* position: fixed; */
-    /* margin-top: 5px!important; */
 }
 
 
@@ -58,7 +49,27 @@ body{
     font-weight: bold;
     font-size: 1.3rem;
 }
+
 /* =========================Searched-Data============================================= */
 .Match{
     background-color: green;
+}
+
+.csvDiv1312{
+    min-height:80%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+table{
+    width:100%;
+    background: rgb(255, 253, 110);
+}
+
+table tbody{
+    width:100%;
+    background: rgb(103, 211, 202);
+    justify-content: space-between;
+    text-decoration: none;
 }
