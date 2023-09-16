@@ -1,6 +1,7 @@
 # CSV-upload
 This project allows you to upload CSV files, display the data in them, and perform various operations on the data.
 
+
 **======================Project Setup==================** 
 
 Follow these steps to set up the project on your local system:
