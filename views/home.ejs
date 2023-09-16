@@ -33,7 +33,7 @@
      <div> <a href="/create/view/<%=a._id%>" target="_blank"><%=a.filename%></a></div>
      <div class="ulLiDivThree">  <a href="/create/view/<%=a._id%>" target="_blank"><%=a.createdAt.toLocaleString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})%></a></div>
      <div class="ulLiDivThree"> <a href="/create/view/<%=a._id%>" target="_blank"><%=a.createdAt.toLocaleTimeString()%></a></div> 
-     <div class="ulLiDivThree"> <a href="/create/delete/<%=a._id%>">DELETE</a></div>
+     <div class="ulLiDivThree delButton"> <a href="/create/delete/<%=a._id%>">DELETE</a></div>
         </li>
         <%}%>  
 </ul>
